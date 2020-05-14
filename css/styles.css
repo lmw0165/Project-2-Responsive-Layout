@@ -155,16 +155,20 @@ h4,
         width: 60%;
         height: 60%;
         text-align: center;
-        margin: 0 auto;
-
-        
-    }
-
-        
+        margin: 0 auto; 
     }
 }
 
 @media (min-width: 1024px) {
+    .name {
+        float: left;
+        padding-left: 20px;
+    }
+    .nav {
+        float: right;
+        padding: 20px;
+    }
+ 
 
 }
 

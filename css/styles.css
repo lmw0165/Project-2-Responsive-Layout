@@ -160,15 +160,33 @@ h4,
 }
 
 @media (min-width: 1024px) {
+
     .name {
         float: left;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .nav {
         float: right;
         padding: 20px;
     }
- 
+    .profile img {
+        width: 50%;
+    }
+    .profile {
+        float: right;
+        padding-bottom: 30px;
+    }
+    #portfolio {
+        overflow: hidden;
+    }
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .container div {
+        width: 30%;
+
+    }
 
 }
-

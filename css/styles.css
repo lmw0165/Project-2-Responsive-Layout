@@ -4,14 +4,14 @@
 
 body {
     font-family: 'Raleway' , sans-serif;
-    background-color: #f8f8f8;
+    background-color: tomato;
 }
 
 li {
     list-style: none;
     padding: 1em;
     margin: 5px;
-    background-color: white;
+    background-color: rgb(60, 243, 203);
     border-radius: 2%;
 }
 li a {
@@ -19,12 +19,15 @@ li a {
     font-size: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
+    background-color: rgb(60, 243, 203);
+    color: white;
 
 }
 
 h3 {
     text-align: center;
     padding-top: 20px;
+    color: white;
 }
 h4 {
     font-size: 25px;
@@ -43,22 +46,29 @@ h4,
 
 
 .container {
-    background-color: white;
+    background-color: rgb(60, 243, 203);
 }
-
 
 .nav {
     margin: 0 10px 0 10px;
     display: inline;
 }
+.nav a:hover {
+    color: black;
+}
 .nav a {
     font-size: 15px;
 }
+.name {
+    color: white;
+}
 #portfolio {
     display: block;
-    background-color: white;
+    background-color: rgb(60, 243, 203);
     padding: 30px;
     margin-bottom: 0;
+    color: black;
+    border-top: white solid 2px;
 }
 .projects {
     padding: 20px;
@@ -72,19 +82,26 @@ h4,
 .profile-img {
     width: 70%;
 }
+.profile-content {
+    font-family: 'Montserrat' , sans-serif;
+    color: white;
+    font-size: 19px;
+    line-height: 30px;
+}
 
 .header {
     padding: 20px;
     text-align: center;
 }
 .contact {
-    background-color: #f8f8f8;
+    background-color: tomato;
     padding: 10px;
     text-align: center;
 
 }
 .contact-content {
     padding: 10px;
+    color: white;
 }
 
 .footer {
@@ -98,21 +115,27 @@ h4,
 
 .footer-nav li {
     float: left;
-    background-color: #f8f8f8;
+    background-color: tomato;
     font-size: 12px;
     display: block;
  
 }
+.footer-nav a {
+    background-color: tomato;
+}
 .name-footer {
     float: left;
     display: block;
+    background-color: tomato;
+
  
 }
 
 .name-footer,
 .footer-nav li {
     margin: auto;
-
+    color: white;
+    background-color: tomato;
 }
 
 /* Media Queries */
@@ -120,8 +143,11 @@ h4,
 @media (min-width: 768px) {
     .nav li {
         display: inline;
-        background-color: #f8f8f8;
+        background-color: tomato;
         padding: 10px;
+    }
+    .nav a {
+        background-color: tomato;
     }
     .profile {
         margin: auto;;
